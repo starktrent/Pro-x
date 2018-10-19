@@ -33,7 +33,7 @@ router.post("/signin",function(req,res){
           console.log(err);
           return res.redirect("/vote-now");
       }
-
+      console.log(result)
       return res.redirect("/vote-now");
   })
 })
